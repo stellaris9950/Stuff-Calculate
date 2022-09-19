@@ -1,7 +1,36 @@
 // Triangle Perimeter Assignment Start Code
 // link button to function
+
+
+
+
+
+
 document.getElementById("button").addEventListener("click", calculate);
 
+//getting the code and pklacing them into the functuion
+document.getElementById("Xa")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // function of calculating
 function calculate(){
   // getting number
@@ -13,3 +42,6 @@ function calculate(){
   // output
   document.getElementById("output").innerHTML = output;
 }
+*/
+
+
