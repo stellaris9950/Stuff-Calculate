@@ -1,13 +1,3 @@
-// Triangle Perimeter Assignment Start Code
-// link button to function
-
-
-
-
-
-
-document.getElementById("button").addEventListener("click", calculate);
-
 //getting the coordinates
   //Vertex A
 let Xa = document.getElementById("Xa").innerHTML
@@ -20,13 +10,22 @@ let Xc = document.getElementById("Xc").innerHTML
 let Yc = document.getElementById("Yc").innerHTML
 
 
+
+
+
+// link button to function
+document.getElementById("button").addEventListener("click", calculate);
+
+function calculate(){
 //let html equals to result returned from the function calculated with variables
-  //Line AB
-document.getElementById("ab_legnth").innerHTML = dist(Xa, Ya, Xb, Yb)
-  //Line BC
-document.getElementById("bc_legnth").innerHTML = dist(Xb, Yb, Xc, Yc)
-  //Line AC
-document.getElementById("ac_legnth").innerHTML = dist(Xa, Ya, Xc, Yc)
+    //Line AB
+  document.getElementById("ab_legnth").innerHTML = dist(Xa, Ya, Xb, Yb)
+    //Line BC
+  document.getElementById("bc_legnth").innerHTML = dist(Xb, Yb, Xc, Yc)
+    //Line AC
+  document.getElementById("ac_legnth").innerHTML = dist(Xa, Ya, Xc, Yc)
+}
+
 
 
 
