@@ -1,23 +1,20 @@
-//getting the coordinates
-  //Vertex A
-let Xa = document.getElementById("Xa").value
-let Ya = document.getElementById("Ya").value
-  //Vertex B
-let Xb = document.getElementById("Xb").value
-let Yb = document.getElementById("Yb").value
-  //Vertex C
-let Xc = document.getElementById("Xc").value
-let Yc = document.getElementById("Yc").value
-
-
-
-
 
 // link button to function
 document.getElementById("button").addEventListener("click", calculate);
 
 function calculate(){
-//let html equals to result returned from the function calculated with variables
+  //getting the coordinates
+    //Vertex A
+  let Xa = document.getElementById("Xa").value
+  let Ya = document.getElementById("Ya").value
+    //Vertex B
+  let Xb = document.getElementById("Xb").value
+  let Yb = document.getElementById("Yb").value
+    //Vertex C
+  let Xc = document.getElementById("Xc").value
+  let Yc = document.getElementById("Yc").value
+
+  //let html equals to result returned from the function calculated with variables
     //Line AB
     console.log(Xa, Ya, Xb, Yb);
   let legnth_ab = dist(Xa, Ya, Xb, Yb)
