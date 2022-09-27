@@ -20,14 +20,15 @@ function calculate(){
 //let html equals to result returned from the function calculated with variables
     //Line AB
     console.log(Xa, Ya, Xb, Yb);
-  document.getElementById("ab_legnth").innerHTML = dist(Xa, Ya, Xb, Yb)
+  let legnth_ab = dist(Xa, Ya, Xb, Yb)
     //Line BC
-  document.getElementById("bc_legnth").innerHTML = dist(Xb, Yb, Xc, Yc)
+  let legnth_bc = dist(Xb, Yb, Xc, Yc)
     //Line AC
-  document.getElementById("ac_legnth").innerHTML = dist(Xa, Ya, Xc, Yc)
+  let legnth_ac = dist(Xa, Ya, Xc, Yc)
 
+  let perimeter = legnth_ab + legnth_ac + legnth_bc 
 
-  
+  document.getElementById("perimeter").innerHTML = perimeter
 }
 
 
